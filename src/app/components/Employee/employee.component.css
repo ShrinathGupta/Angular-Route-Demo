@@ -1,0 +1,32 @@
+.detailsLink{
+    font-size: 14px;
+    background-color: bisque
+}
+.list{
+    background-color: lightblue;
+    width: 20%;
+    float: left;
+    height: auto;   
+    margin-left: 5px;
+    margin-bottom: 5px
+}
+.listItem{
+padding-bottom: 5px;
+}
+.container{
+    width: 100%;
+}
+
+.details {
+    width: 70%;
+    font-size: 14px;
+    display: inline-block;
+    flex-direction: column;
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 10px
+}
+.header{
+    text-align:center;background-color: coral;margin-bottom: 20px
+}

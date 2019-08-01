@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+    <div class="header">
+      <span>Employee</span> 
+    </div>
+    
+  <div class="list">
+      <div class="listItem" *ngFor="let emp of employeeArray">
+        <span [routerLink]="['/employee/details',emp.id]">{{emp.name}}</span>
+      </div>
+
+  </div>
+    <div class="details">
+      <router-outlet></router-outlet>
+    </div>
+</div>
+

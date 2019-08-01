@@ -1,0 +1,44 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  .container{
+      width: 100%;
+  }
+.sidenav {
+    float: left;
+    width: 20%;
+    z-index: 1;
+    top: 90px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 5px 0;
+    
+   }
+  .sidenav a {
+    padding: 6px 8px 6px 6px;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #2196F3;     
+  }
+
+  .sidenav a:hover {
+    color: #064579;
+  }
+  ul {
+    list-style: none;
+   }
+   
+  .main {
+      width: 80%;
+     font-size: 14px; /* Increased text to enable scrolling */
+     border-color:green;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    height: 100%;
+    flex-direction: column;
+  }
+
+    
