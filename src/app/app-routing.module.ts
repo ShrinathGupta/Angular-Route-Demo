@@ -22,7 +22,7 @@ const appRoutes: Routes = [
 			}
 		]
 	},
-	{ path: 'account', component: HomeComponent, canLoad: [] },
+	{ path: 'account', component: HomeComponent },
 	{ path: '', component: HomeComponent },
 	{ path: '**', component: PageNotFoundComponent }
 ];
