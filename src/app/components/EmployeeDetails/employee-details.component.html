@@ -1,11 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center;min-height:100% ;">
+<div style="text-align:center;border-color:red;
+border-width: 3px;
+border-style: solid;padding-bottom: 20px">
   <span>
-   Employee Details {{id}}
+   Employee Details 
   </span>
-  <div [routerLink]="['/hello']">
-    {{name}}
-  </div>
+  
+  <div>
+  <span style="background-color: skyblue" (click)="onClickMe()">
+      {{id}} {{name}}
+  </span> <i style="font-size: 9px">&nbsp;<<--Click me</i>
+</div>
+</div>
+<div style="margin-top: 15px;">
   <router-outlet></router-outlet>
 </div>
-

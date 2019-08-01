@@ -6,7 +6,7 @@
     
   <div class="list">
       <div class="listItem" *ngFor="let emp of employeeArray">
-        <span [routerLink]="['/employee/details',emp.id]">{{emp.name}}</span>
+        <span class="emp" [routerLink]="['/employee/details',emp.id]">{{emp.name}}</span>
       </div>
 
   </div>

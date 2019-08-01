@@ -22,8 +22,13 @@ export class EmployeeDetailsComponent implements OnInit {
       const data = this.id != undefined ? this.apiSerivce.getEmpDetails(this.id) : null;
       this.name = data.length > 0 ? data[0].name : null;
     });
+    console.log("==> ", this.router);
+
+
   }
   onClickMe() {
-    alert("hello");
+    // this.router.navigate(['/about']);
+    this.router.navigate(['employee/details/' + this.id + '/hello']);
+
   }
 }

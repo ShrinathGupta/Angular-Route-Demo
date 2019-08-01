@@ -1,5 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div>
+<div style="text-align:center;  ">
   <div>
     <h3>
       Welcome to {{ title }}!
@@ -10,21 +11,21 @@
   <div class="sidenav">
       <ul>
         <li>
-          <h2><a class="nav-link" routerLink="home" employee >Home</a></h2>
+          <h2><a  routerLink="home" employee >Home</a></h2>
         </li>
         <li>
-          <h2><a  class="nav-link" rel="noopener" routerLink="employee"  >Nested View</a></h2>
+          <h2><a    routerLink="employee"  >Nested View</a></h2>
         </li>
         <li>
-          <h2><a  class="nav-link" rel="noopener"  >Authenticated Route</a></h2>
-        </li>
-        <li>
-          <h2><a  class="nav-link" rel="noopener"  >Route with ID</a></h2> 
-          </li>
-        
+          <h2><a    >Authenticated Route</a></h2>
+        </li>        
       </ul>
   </div>
   <div class="main">
     <router-outlet></router-outlet>
   </div>
+  <div class="message">
+    {{message}}
+  </div>
+</div>
 </div>

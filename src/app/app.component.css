@@ -13,32 +13,42 @@ body {
     left: 10px;
     background: #eee;
     overflow-x: hidden;
-    padding: 5px 0;
-    
-   }
+    padding: 5px 0; 
+    margin-left: 10px   
+  }
   .sidenav a {
     padding: 6px 8px 6px 6px;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 0.5em;
     color: #2196F3;     
   }
 
   .sidenav a:hover {
-    color: #064579;
+    color: white;
+    background-color: darkslateblue
   }
   ul {
     list-style: none;
-   }
-   
+  }
   .main {
-      width: 80%;
-     font-size: 14px; /* Increased text to enable scrolling */
-     border-color:green;
+    width: 75%;
+    font-size: 14px; /* Increased text to enable scrolling */
+    border-color:green;
     border-width: 3px;
     border-style: solid;
     display: inline-block;
     height: 100%;
     flex-direction: column;
+    margin-left: 10px
+    
   }
-
+.message{
+  background-color: teal;
+  color: yellow; 
+  font-size: 1em;
+   margin-top:10px;
+  margin-left: 10px;
+  margin-bottom: 10px
+    
+}
     
