@@ -12,6 +12,9 @@ This repository is to show all the possible ways of routing in Angular.
 **Note:** you can define custom animation for specific route inside route-animation.ts. And assing that to specific routes in app-routing.module.ts. 
 Learn more about route animation. [Link](https://angular.io/guide/route-animations)
 
+## Demo ##
+[Play with it](https://shrinathgupta.github.io/Angular-Route-Demo/)
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
