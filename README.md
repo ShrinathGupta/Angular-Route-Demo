@@ -8,7 +8,8 @@ This repository is to show all the possible ways of routing in Angular.
 - Authenticated Route.
 - Broadcast from Great-Grandchild to directly Parent.
 
-**Note:** you can define custom animation for specific route inside route-animation.ts. And assing that to specific routes in app-routing.module.ts.
+**Note:** you can define custom animation for specific route inside route-animation.ts. And assing that to specific routes in app-routing.module.ts. 
+Learn more about route animation. [Link](https://angular.io/guide/route-animations)
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
