@@ -4,6 +4,7 @@ This repository is to show all the possible ways of routing in Angular.
 # Features
 - Routing navigation, Parent -> Child
 - Routing navigation, Parent -> Child -> Grandchild -> Great-Grandchild
+- Routing with param.
 - Routing Animation.
 - Authenticated Route.
 - Broadcast from Great-Grandchild to directly Parent.
