@@ -5,6 +5,10 @@
     <h3>
       Welcome to {{ title }}!
     </h3>
+    <p>It covers following, <br> Routing level: <b>Parent</b> &#8594; <b>Child</b>, <b>Parent</b> &#8594; <b>Child</b> &#8594; <b>Grandchild</b> &#8594; <b>Great-Grandchild</b><br>
+      Routing Animation.<br>
+      Authenticated Route. <br>
+      Broadcast from Great-Grandchild to Parent. </p>
   </div>
 </div>
 <div class="container">
@@ -21,8 +25,8 @@
         </li>        
       </ul>
   </div>
-  <div class="main">
-    <router-outlet></router-outlet>
+  <div class="main" [@routeAnimations]="prepareRoute(outlet)" >
+    <router-outlet #outlet="outlet"></router-outlet>
   </div>
   <div class="message">
     {{message}}
